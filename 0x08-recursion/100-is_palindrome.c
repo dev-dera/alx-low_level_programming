@@ -8,7 +8,7 @@
 *Return: true if the given string is a palindrome
 */
 
-int check_palindrome (char *s, int len, int index);
+int check_palindrome(char *s, int len, int index);
 
 int is_palindrome(char *s)
 {
@@ -57,4 +57,3 @@ int check_palindrome(char *s, int len, int index)
 		return (check_palindrome(s, len, index + 1));
 	return (0);
 }
-
